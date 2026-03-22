@@ -273,8 +273,11 @@ class Frogatto < Formula
       Launch from the terminal:
         frogatto
 
-      Or from Finder, run:
+      To launch from Finder:
         open "$(brew --prefix)/opt/frogatto/bin/frogatto"
+
+      To add a permanent shortcut in /Applications:
+        ln -sf "$(brew --prefix)/opt/frogatto/bin/frogatto" /Applications/Frogatto
 
       Game data is saved in:
         ~/Library/Application Support/frogatto4/
